@@ -148,15 +148,22 @@ const Home = () => {
             console.error("Process failed", err);
 
             // Check for specific backend errors
-            if (err.response?.data?.error) {
-                setError(err.response.data.error);
-                // If it's an Auth/Quota error, we might want to prompt them to open settings
-                if (err.response.data.isAuthError || err.response.data.isQuotaError) {
-                    // Start timer to show modal automatically or just let them click the button
-                    // But for better UX, let's keep the error message visible with a CTA
+            if (err.response) {
+                if (err.response.status === 404) {
+                    setError("Server unavailable. Please check your connection or backend URL.");
+                } else if (err.response.data && err.response.data.error) {
+                    const msg = err.response.data.error;
+                    setError(typeof msg === 'string' ? msg : JSON.stringify(msg));
+
+                    // If it's an Auth/Quota error
+                    if (err.response.data.isAuthError || err.response.data.isQuotaError) {
+                        // Keep error visible
+                    }
+                } else {
+                    setError(`Server Error: ${err.response.status}`);
                 }
             } else {
-                setError("Something went wrong. Please check your connection or try again.");
+                setError("Network Error: Could not reach the server.");
             }
 
             setLoading(false);
