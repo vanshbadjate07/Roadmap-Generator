@@ -396,6 +396,46 @@ const getSavedRoadmaps = async (req, res) => {
     }
 };
 
+};
+
+// POST /api/user/key
+const saveUserKey = async (req, res) => {
+    try {
+        const userId = req.user.uid;
+        const { key } = req.body;
+
+        if (!key) return res.status(400).json({ error: "Key is required" });
+
+        // Save to 'users' collection (separate from roadmaps for privacy/structure)
+        await db.collection('users').doc(userId).set({
+            geminiApiKey: key,
+            updatedAt: new Date()
+        }, { merge: true });
+
+        res.json({ success: true, message: "API Key saved securely" });
+    } catch (error) {
+        console.error("Error saving user key:", error);
+        res.status(500).json({ error: "Failed to save API key" });
+    }
+};
+
+// GET /api/user/key
+const getUserKey = async (req, res) => {
+    try {
+        const userId = req.user.uid;
+        const doc = await db.collection('users').doc(userId).get();
+
+        if (!doc.exists || !doc.data().geminiApiKey) {
+            return res.json({ key: null });
+        }
+
+        res.json({ key: doc.data().geminiApiKey });
+    } catch (error) {
+        console.error("Error fetching user key:", error);
+        res.status(500).json({ error: "Failed to fetch API key" });
+    }
+};
+
 module.exports = {
     createRoadmap,
     saveRoadmap,
