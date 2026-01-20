@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @layer base {
+    body {
+      @apply bg-dark text-gray-200 font-sans antialiased selection:bg-primary/30 selection:text-primary;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      @apply font-heading text-white;
+    }
+  }
+
+  @layer utilities {
+    .text-gradient {
+      @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-white;
+    }
+
+    .glass-panel {
+      @apply bg-glass backdrop-blur-md border border-white/10;
+    }
+  }
+
+  /* Custom Animations */
+  @keyframes pop-in {
+    0% {
+      transform: scale(0);
+      opacity: 0;
+    }
+
+    70% {
+      transform: scale(1.2);
+      opacity: 1;
+    }
+
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+
+  .animate-pop-in-1 {
+    animation: pop-in 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+    animation-delay: 0.2s;
+    opacity: 0;
+  }
+
+  .animate-pop-in-2 {
+    animation: pop-in 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+    animation-delay: 0.6s;
+    opacity: 0;
+  }
+
+  .animate-pop-in-3 {
+    animation: pop-in 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+    animation-delay: 1.0s;
+    opacity: 0;
+  }
+
+  .animate-pop-in-4 {
+    animation: pop-in 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+    animation-delay: 1.4s;
+    opacity: 0;
+  }
+
+  @keyframes draw-path {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+
+  .animate-draw-path {
+    animation: draw-path 2s ease-in-out infinite alternate;
+  }
+
+  @keyframes fade-in-up {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .animate-fade-in-up {
+    animation: fade-in-up 0.5s ease-out forwards;
+  }
+}

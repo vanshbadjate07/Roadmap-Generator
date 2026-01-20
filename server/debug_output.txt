@@ -1,0 +1,676 @@
+[2026-01-17T16:49:55.516Z] Saving to Project: undefined
+[2026-01-17T16:49:57.590Z] Saved Roadmap ID: TlmYgiA3w9JAJUtmOhev
+[2026-01-17T16:54:50.473Z] Saving to Project: undefined
+[2026-01-17T16:54:50.932Z] Saved Roadmap ID: RQNWK93smOVgP6D5cl9m
+[2026-01-17T17:01:46.943Z] Saving to Project: undefined
+[2026-01-17T17:01:49.022Z] Saved Roadmap ID: mAes9c0o7UjQF4ALcyWC
+[2026-01-17T17:05:32.175Z] Saving to Project: undefined
+[2026-01-17T17:05:34.775Z] Saved Roadmap ID: lvmSzegXqR0t884UbVau
+[2026-01-17T17:07:23.841Z] Saving to Project: undefined
+[2026-01-17T17:07:24.417Z] Saved Roadmap ID: b1mnAy9YS1HlClI2egym
+[2026-01-17T17:34:23.114Z] Saving to Project: undefined
+[2026-01-17T17:34:23.687Z] Saved Roadmap ID: hvvU6hzOcpJ3xafNktSH
+[2026-01-17T17:41:08.184Z] Saving to Project: undefined
+[2026-01-17T17:41:08.781Z] Saved Roadmap ID: uUALsm1aSiVfQvQCS9X5
+[2026-01-17T17:41:36.006Z] Saving to Project: undefined
+[2026-01-17T17:41:36.488Z] Saved Roadmap ID: 00ZXTt2CZOlT3BEeOuVG
+[2026-01-17T17:54:23.097Z] Saving to Project: undefined
+[2026-01-17T17:54:25.607Z] Saved Roadmap ID: 21jQWYzDvqebamdviBXn
+[2026-01-17T18:00:22.974Z] Saving to Project: undefined
+[2026-01-17T18:00:23.768Z] Saved Roadmap ID: 12d7BheobnW3Rq7FMkz0
+[2026-01-17T18:03:54.319Z] Saving to Project: undefined
+[2026-01-17T18:03:55.014Z] Saved Roadmap ID: 27EF8ORnnkInJR9NvsQy
+[2026-01-17T18:22:02.958Z] Saving to Project: undefined
+[2026-01-17T18:22:05.694Z] Saved Roadmap ID: qd5WfoaoPprH2f6ZPlGp
+[2026-01-17T18:28:27.614Z] Saving to Project: undefined
+[2026-01-17T18:28:29.869Z] Saved Roadmap ID: rbSE9NcA0dh1xbXlWzu6
+[2026-01-17T18:36:27.521Z] Error generating: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[2026-01-17T18:38:43.806Z] Error generating: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[2026-01-17T18:40:07.360Z] Error generating: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 52.988830665s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"20"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"52s"}]
+[2026-01-17T18:41:17.511Z] Error generating: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 42.748061771s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"20"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"42s"}]
+[2026-01-17T18:42:54.217Z] Error generating: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 6.047180597s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"20"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"6s"}]
+[2026-01-17T18:49:01.594Z] Saving to Project: undefined
+[2026-01-17T18:49:03.917Z] Saved Roadmap ID: ONUj2XU9NbU1GvXxQnlc
+[2026-01-17T18:55:09.114Z] Saving to Project: undefined
+[2026-01-17T18:55:11.239Z] Saved Roadmap ID: VH9jnCwFxYs72AgV7Sxr
+[2026-01-17T19:07:52.455Z] Saving to Project: undefined
+[2026-01-17T19:07:54.966Z] Saved Roadmap ID: gMcPt99m14Whwl7TexJO
+[2026-01-18T05:32:19.657Z] Saving to Project: undefined
+[2026-01-18T05:32:20.478Z] Saved Roadmap ID: E7fakjuNsX1Rq7TtfUSg
+[2026-01-18T05:37:02.821Z] Saving to Project: undefined
+[2026-01-18T05:37:05.234Z] Saved Roadmap ID: 66XOoW3yhTfKZYBzHgLf
+[2026-01-18T05:37:17.756Z] [Like] Request for ID: 66XOoW3yhTfKZYBzHgLf by User: zSZht9ZzFfRFQrxEIpvhMt0EKIh1
+[2026-01-18T05:37:19.294Z] [Like] Liked ID: 66XOoW3yhTfKZYBzHgLf
+[2026-01-18T05:37:23.056Z] [Clone] Request for ID: 66XOoW3yhTfKZYBzHgLf by User: zSZht9ZzFfRFQrxEIpvhMt0EKIh1
+[2026-01-18T05:37:24.873Z] [Clone] Success. New ID: rxHp6qkK8AU3E5KLdk1T
+[2026-01-18T05:37:26.275Z] Fetching ID: rxHp6qkK8AU3E5KLdk1T from Project: undefined
+[2026-01-18T05:37:28.051Z] ID rxHp6qkK8AU3E5KLdk1T FOUND
+[2026-01-18T05:37:28.059Z] Fetching ID: rxHp6qkK8AU3E5KLdk1T from Project: undefined
+[2026-01-18T05:37:28.693Z] ID rxHp6qkK8AU3E5KLdk1T FOUND
+[2026-01-18T05:37:37.809Z] Fetching ID: rxHp6qkK8AU3E5KLdk1T from Project: undefined
+[2026-01-18T05:37:39.625Z] ID rxHp6qkK8AU3E5KLdk1T FOUND
+[2026-01-18T05:37:39.633Z] Fetching ID: rxHp6qkK8AU3E5KLdk1T from Project: undefined
+[2026-01-18T05:37:40.263Z] ID rxHp6qkK8AU3E5KLdk1T FOUND
+[2026-01-18T05:40:19.554Z] Fetching public roadmaps...
+[2026-01-18T05:40:20.231Z] Found 1 public roadmaps
+[2026-01-18T05:40:20.238Z] Fetching public roadmaps...
+[2026-01-18T05:40:21.348Z] Found 1 public roadmaps
+[2026-01-18T05:40:22.509Z] Fetching ID: rxHp6qkK8AU3E5KLdk1T from Project: undefined
+[2026-01-18T05:40:24.332Z] ID rxHp6qkK8AU3E5KLdk1T FOUND
+[2026-01-18T05:40:24.339Z] Fetching ID: rxHp6qkK8AU3E5KLdk1T from Project: undefined
+[2026-01-18T05:40:25.032Z] ID rxHp6qkK8AU3E5KLdk1T FOUND
+[2026-01-18T05:41:17.424Z] Fetching public roadmaps...
+[2026-01-18T05:41:18.075Z] Found 1 public roadmaps
+[2026-01-18T05:41:18.083Z] Fetching public roadmaps...
+[2026-01-18T05:41:19.306Z] Found 1 public roadmaps
+[2026-01-18T05:41:37.504Z] Fetching public roadmaps...
+[2026-01-18T05:41:38.136Z] Found 1 public roadmaps
+[2026-01-18T05:41:38.143Z] Fetching public roadmaps...
+[2026-01-18T05:41:39.336Z] Found 1 public roadmaps
+[2026-01-18T05:41:39.345Z] Fetching ID: rxHp6qkK8AU3E5KLdk1T from Project: undefined
+[2026-01-18T05:41:41.104Z] ID rxHp6qkK8AU3E5KLdk1T FOUND
+[2026-01-18T05:41:41.112Z] Fetching ID: rxHp6qkK8AU3E5KLdk1T from Project: undefined
+[2026-01-18T05:41:41.729Z] ID rxHp6qkK8AU3E5KLdk1T FOUND
+[2026-01-18T05:41:45.303Z] [Like] Request for ID: rxHp6qkK8AU3E5KLdk1T by User: fASQQQBjtTPXvyQ4iHm9myTO89J2
+[2026-01-18T05:41:46.797Z] [Like] Liked ID: rxHp6qkK8AU3E5KLdk1T
+[2026-01-18T05:41:58.362Z] [Like] Request for ID: rxHp6qkK8AU3E5KLdk1T by User: fASQQQBjtTPXvyQ4iHm9myTO89J2
+[2026-01-18T05:41:59.941Z] [Like] Unliked ID: rxHp6qkK8AU3E5KLdk1T
+[2026-01-18T05:42:14.187Z] Fetching public roadmaps...
+[2026-01-18T05:42:14.818Z] Found 1 public roadmaps
+[2026-01-18T05:42:14.825Z] Fetching public roadmaps...
+[2026-01-18T05:42:15.965Z] Found 1 public roadmaps
+[2026-01-18T05:42:27.417Z] Fetching public roadmaps...
+[2026-01-18T05:42:28.027Z] Found 1 public roadmaps
+[2026-01-18T05:42:28.033Z] Fetching public roadmaps...
+[2026-01-18T05:42:28.819Z] Fetching ID: rxHp6qkK8AU3E5KLdk1T from Project: undefined
+[2026-01-18T05:42:29.165Z] Found 1 public roadmaps
+[2026-01-18T05:42:30.582Z] ID rxHp6qkK8AU3E5KLdk1T FOUND
+[2026-01-18T05:42:30.590Z] Fetching ID: rxHp6qkK8AU3E5KLdk1T from Project: undefined
+[2026-01-18T05:42:31.202Z] ID rxHp6qkK8AU3E5KLdk1T FOUND
+[2026-01-18T05:42:32.782Z] [Like] Request for ID: rxHp6qkK8AU3E5KLdk1T by User: fASQQQBjtTPXvyQ4iHm9myTO89J2
+[2026-01-18T05:42:34.303Z] [Like] Liked ID: rxHp6qkK8AU3E5KLdk1T
+[2026-01-18T05:42:35.334Z] [Clone] Request for ID: rxHp6qkK8AU3E5KLdk1T by User: fASQQQBjtTPXvyQ4iHm9myTO89J2
+[2026-01-18T05:42:37.166Z] [Clone] Success. New ID: Ez8UAg3iA2U9LMFSigb2
+[2026-01-18T05:42:37.736Z] Fetching ID: Ez8UAg3iA2U9LMFSigb2 from Project: undefined
+[2026-01-18T05:42:39.499Z] ID Ez8UAg3iA2U9LMFSigb2 FOUND
+[2026-01-18T05:42:39.507Z] Fetching ID: Ez8UAg3iA2U9LMFSigb2 from Project: undefined
+[2026-01-18T05:42:40.117Z] ID Ez8UAg3iA2U9LMFSigb2 FOUND
+[2026-01-18T05:42:42.585Z] [Like] Request for ID: Ez8UAg3iA2U9LMFSigb2 by User: fASQQQBjtTPXvyQ4iHm9myTO89J2
+[2026-01-18T05:42:44.095Z] [Like] Liked ID: Ez8UAg3iA2U9LMFSigb2
+[2026-01-18T05:42:50.417Z] [Like] Request for ID: Ez8UAg3iA2U9LMFSigb2 by User: fASQQQBjtTPXvyQ4iHm9myTO89J2
+[2026-01-18T05:42:51.921Z] [Like] Unliked ID: Ez8UAg3iA2U9LMFSigb2
+[2026-01-18T05:43:00.574Z] Fetching ID: Ez8UAg3iA2U9LMFSigb2 from Project: undefined
+[2026-01-18T05:43:02.336Z] ID Ez8UAg3iA2U9LMFSigb2 FOUND
+[2026-01-18T05:43:02.341Z] Fetching ID: Ez8UAg3iA2U9LMFSigb2 from Project: undefined
+[2026-01-18T05:43:03.856Z] ID Ez8UAg3iA2U9LMFSigb2 FOUND
+[2026-01-18T05:43:05.708Z] Fetching ID: Ez8UAg3iA2U9LMFSigb2 from Project: undefined
+[2026-01-18T05:43:07.472Z] ID Ez8UAg3iA2U9LMFSigb2 FOUND
+[2026-01-18T05:43:07.480Z] Fetching ID: Ez8UAg3iA2U9LMFSigb2 from Project: undefined
+[2026-01-18T05:43:08.478Z] ID Ez8UAg3iA2U9LMFSigb2 FOUND
+[2026-01-18T05:43:10.669Z] Fetching ID: Ez8UAg3iA2U9LMFSigb2 from Project: undefined
+[2026-01-18T05:43:12.419Z] ID Ez8UAg3iA2U9LMFSigb2 FOUND
+[2026-01-18T05:43:12.425Z] Fetching ID: Ez8UAg3iA2U9LMFSigb2 from Project: undefined
+[2026-01-18T05:43:13.036Z] ID Ez8UAg3iA2U9LMFSigb2 FOUND
+[2026-01-18T05:43:14.134Z] [Like] Request for ID: Ez8UAg3iA2U9LMFSigb2 by User: fASQQQBjtTPXvyQ4iHm9myTO89J2
+[2026-01-18T05:43:15.637Z] [Like] Liked ID: Ez8UAg3iA2U9LMFSigb2
+[2026-01-18T05:44:10.404Z] [Like] Request for ID: Ez8UAg3iA2U9LMFSigb2 by User: fASQQQBjtTPXvyQ4iHm9myTO89J2
+[2026-01-18T05:44:11.928Z] [Like] Unliked ID: Ez8UAg3iA2U9LMFSigb2
+[2026-01-18T05:48:37.943Z] Fetching public roadmaps...
+[2026-01-18T05:48:38.600Z] Found 1 public roadmaps
+[2026-01-18T05:48:38.611Z] Fetching public roadmaps...
+[2026-01-18T05:48:39.901Z] Found 1 public roadmaps
+[2026-01-18T05:50:06.886Z] Saving to Project: undefined
+[2026-01-18T05:50:07.587Z] Saved Roadmap ID: 3wTDnhDhAHaPKgR4AR6k
+[2026-01-18T05:55:30.333Z] Fetching public roadmaps...
+[2026-01-18T05:55:31.017Z] Found 1 public roadmaps
+[2026-01-18T05:55:31.027Z] Fetching public roadmaps...
+[2026-01-18T05:55:32.321Z] Found 1 public roadmaps
+[2026-01-18T06:12:36.678Z] Saving to Project: undefined
+[2026-01-18T06:12:37.530Z] Saved Roadmap ID: DeozoDVid1wLpiBSehz0
+[2026-01-18T06:18:58.385Z] Fetching public roadmaps...
+[2026-01-18T06:19:01.098Z] Found 1 public roadmaps
+[2026-01-18T06:19:01.120Z] Fetching public roadmaps...
+[2026-01-18T06:19:01.805Z] Found 1 public roadmaps
+[2026-01-18T06:19:33.718Z] Fetching public roadmaps...
+[2026-01-18T06:19:34.477Z] Found 1 public roadmaps
+[2026-01-18T06:19:34.485Z] Fetching public roadmaps...
+[2026-01-18T06:19:35.743Z] Found 1 public roadmaps
+[2026-01-18T06:20:33.497Z] Fetching public roadmaps...
+[2026-01-18T06:20:34.187Z] Found 1 public roadmaps
+[2026-01-18T06:20:34.192Z] Fetching public roadmaps...
+[2026-01-18T06:20:35.499Z] Found 1 public roadmaps
+[2026-01-18T06:21:09.969Z] Fetching public roadmaps...
+[2026-01-18T06:21:10.686Z] Found 1 public roadmaps
+[2026-01-18T06:21:10.697Z] Fetching public roadmaps...
+[2026-01-18T06:21:11.974Z] Found 1 public roadmaps
+[2026-01-18T06:21:12.175Z] Fetching public roadmaps...
+[2026-01-18T06:21:12.674Z] Fetching public roadmaps...
+[2026-01-18T06:21:12.846Z] Found 1 public roadmaps
+[2026-01-18T06:21:13.129Z] Fetching public roadmaps...
+[2026-01-18T06:21:14.159Z] Found 1 public roadmaps
+[2026-01-18T06:21:14.646Z] Found 1 public roadmaps
+[2026-01-18T06:21:14.652Z] Fetching public roadmaps...
+[2026-01-18T06:21:15.329Z] Found 1 public roadmaps
+[2026-01-18T06:26:12.469Z] Fetching public roadmaps...
+[2026-01-18T06:26:14.552Z] Found 1 public roadmaps
+[2026-01-18T06:26:14.561Z] Fetching public roadmaps...
+[2026-01-18T06:26:15.231Z] Found 1 public roadmaps
+[2026-01-18T06:26:27.526Z] Fetching public roadmaps...
+[2026-01-18T06:26:28.185Z] Found 1 public roadmaps
+[2026-01-18T06:26:28.193Z] Fetching public roadmaps...
+[2026-01-18T06:26:29.486Z] Found 1 public roadmaps
+[2026-01-18T06:26:33.445Z] Fetching public roadmaps...
+[2026-01-18T06:26:34.108Z] Found 1 public roadmaps
+[2026-01-18T06:26:34.114Z] Fetching public roadmaps...
+[2026-01-18T06:26:35.419Z] Found 1 public roadmaps
+[2026-01-18T06:30:06.854Z] Fetching public roadmaps...
+[2026-01-18T06:30:07.530Z] Found 1 public roadmaps
+[2026-01-18T06:30:07.538Z] Fetching public roadmaps...
+[2026-01-18T06:30:08.827Z] Found 1 public roadmaps
+[2026-01-18T06:30:31.603Z] Fetching public roadmaps...
+[2026-01-18T06:30:32.285Z] Found 1 public roadmaps
+[2026-01-18T06:30:32.291Z] Fetching public roadmaps...
+[2026-01-18T06:30:33.572Z] Found 1 public roadmaps
+[2026-01-18T06:33:50.750Z] Fetching public roadmaps...
+[2026-01-18T06:33:51.447Z] Found 1 public roadmaps
+[2026-01-18T06:35:36.141Z] Fetching public roadmaps...
+[2026-01-18T06:35:36.824Z] Found 1 public roadmaps
+[2026-01-18T06:35:36.832Z] Fetching public roadmaps...
+[2026-01-18T06:35:37.293Z] Fetching public roadmaps...
+[2026-01-18T06:35:38.195Z] Found 1 public roadmaps
+[2026-01-18T06:35:38.785Z] Found 1 public roadmaps
+[2026-01-18T06:35:38.793Z] Fetching public roadmaps...
+[2026-01-18T06:35:39.460Z] Found 1 public roadmaps
+[2026-01-18T06:36:12.549Z] Fetching public roadmaps...
+[2026-01-18T06:36:13.265Z] Found 1 public roadmaps
+[2026-01-18T06:36:13.272Z] Fetching public roadmaps...
+[2026-01-18T06:36:14.503Z] Found 1 public roadmaps
+[2026-01-18T06:36:14.510Z] Fetching public roadmaps...
+[2026-01-18T06:36:15.223Z] Found 1 public roadmaps
+[2026-01-18T06:36:15.231Z] Fetching public roadmaps...
+[2026-01-18T06:36:16.428Z] Found 1 public roadmaps
+[2026-01-18T06:36:39.359Z] Fetching public roadmaps...
+[2026-01-18T06:36:40.037Z] Found 1 public roadmaps
+[2026-01-18T06:36:40.045Z] Fetching public roadmaps...
+[2026-01-18T06:36:41.347Z] Found 1 public roadmaps
+[2026-01-18T06:36:41.429Z] Fetching public roadmaps...
+[2026-01-18T06:36:42.084Z] Found 1 public roadmaps
+[2026-01-18T06:36:42.089Z] Fetching public roadmaps...
+[2026-01-18T06:36:43.393Z] Found 1 public roadmaps
+[2026-01-18T06:39:45.442Z] Fetching public roadmaps...
+[2026-01-18T06:39:46.139Z] Found 1 public roadmaps
+[2026-01-18T06:39:46.143Z] Fetching public roadmaps...
+[2026-01-18T06:39:47.422Z] Found 1 public roadmaps
+[2026-01-18T06:42:25.771Z] Fetching public roadmaps...
+[2026-01-18T06:42:26.448Z] Found 1 public roadmaps
+[2026-01-18T06:42:26.459Z] Fetching public roadmaps...
+[2026-01-18T06:42:27.750Z] Found 1 public roadmaps
+[2026-01-18T06:45:03.607Z] Fetching ID: rxHp6qkK8AU3E5KLdk1T from Project: undefined
+[2026-01-18T06:45:03.651Z] Fetching ID: rxHp6qkK8AU3E5KLdk1T from Project: undefined
+[2026-01-18T06:45:04.306Z] ID rxHp6qkK8AU3E5KLdk1T FOUND
+[2026-01-18T06:45:04.311Z] Fetching ID: rxHp6qkK8AU3E5KLdk1T from Project: undefined
+[2026-01-18T06:45:05.596Z] ID rxHp6qkK8AU3E5KLdk1T FOUND
+[2026-01-18T06:45:05.614Z] Fetching ID: rxHp6qkK8AU3E5KLdk1T from Project: undefined
+[2026-01-18T06:45:05.623Z] ID rxHp6qkK8AU3E5KLdk1T FOUND
+[2026-01-18T06:45:06.292Z] ID rxHp6qkK8AU3E5KLdk1T FOUND
+[2026-01-18T06:45:16.702Z] Fetching ID: rxHp6qkK8AU3E5KLdk1T from Project: undefined
+[2026-01-18T06:45:17.385Z] ID rxHp6qkK8AU3E5KLdk1T FOUND
+[2026-01-18T06:45:17.389Z] Fetching ID: rxHp6qkK8AU3E5KLdk1T from Project: undefined
+[2026-01-18T06:45:18.702Z] ID rxHp6qkK8AU3E5KLdk1T FOUND
+[2026-01-18T06:45:31.134Z] Fetching ID: rxHp6qkK8AU3E5KLdk1T from Project: undefined
+[2026-01-18T06:45:31.849Z] ID rxHp6qkK8AU3E5KLdk1T FOUND
+[2026-01-18T06:45:31.857Z] Fetching ID: rxHp6qkK8AU3E5KLdk1T from Project: undefined
+[2026-01-18T06:45:33.155Z] ID rxHp6qkK8AU3E5KLdk1T FOUND
+[2026-01-18T06:45:37.467Z] Fetching ID: rxHp6qkK8AU3E5KLdk1T from Project: undefined
+[2026-01-18T06:45:38.124Z] ID rxHp6qkK8AU3E5KLdk1T FOUND
+[2026-01-18T06:45:38.145Z] Fetching ID: rxHp6qkK8AU3E5KLdk1T from Project: undefined
+[2026-01-18T06:45:39.453Z] ID rxHp6qkK8AU3E5KLdk1T FOUND
+[2026-01-18T06:46:04.578Z] Fetching ID: rxHp6qkK8AU3E5KLdk1T from Project: undefined
+[2026-01-18T06:46:04.581Z] Fetching ID: rxHp6qkK8AU3E5KLdk1T from Project: undefined
+[2026-01-18T06:46:06.530Z] ID rxHp6qkK8AU3E5KLdk1T FOUND
+[2026-01-18T06:46:06.536Z] Fetching ID: rxHp6qkK8AU3E5KLdk1T from Project: undefined
+[2026-01-18T06:46:06.536Z] ID rxHp6qkK8AU3E5KLdk1T FOUND
+[2026-01-18T06:46:06.541Z] Fetching ID: rxHp6qkK8AU3E5KLdk1T from Project: undefined
+[2026-01-18T06:46:07.201Z] ID rxHp6qkK8AU3E5KLdk1T FOUND
+[2026-01-18T06:46:08.480Z] ID rxHp6qkK8AU3E5KLdk1T FOUND
+[2026-01-18T06:46:08.483Z] Fetching ID: rxHp6qkK8AU3E5KLdk1T from Project: undefined
+[2026-01-18T06:46:09.140Z] ID rxHp6qkK8AU3E5KLdk1T FOUND
+[2026-01-18T06:46:09.148Z] Fetching ID: rxHp6qkK8AU3E5KLdk1T from Project: undefined
+[2026-01-18T06:46:10.466Z] ID rxHp6qkK8AU3E5KLdk1T FOUND
+[2026-01-18T06:46:28.107Z] Fetching public roadmaps...
+[2026-01-18T06:46:28.776Z] Found 1 public roadmaps
+[2026-01-18T06:46:28.784Z] Fetching public roadmaps...
+[2026-01-18T06:46:29.827Z] Fetching ID: rxHp6qkK8AU3E5KLdk1T from Project: undefined
+[2026-01-18T06:46:30.084Z] Found 1 public roadmaps
+[2026-01-18T06:46:31.809Z] ID rxHp6qkK8AU3E5KLdk1T FOUND
+[2026-01-18T06:46:31.816Z] Fetching ID: rxHp6qkK8AU3E5KLdk1T from Project: undefined
+[2026-01-18T06:46:32.478Z] ID rxHp6qkK8AU3E5KLdk1T FOUND
+[2026-01-18T06:47:07.078Z] Fetching public roadmaps...
+[2026-01-18T06:47:07.769Z] Found 1 public roadmaps
+[2026-01-18T06:47:07.778Z] Fetching public roadmaps...
+[2026-01-18T06:47:09.091Z] Found 1 public roadmaps
+[2026-01-18T06:47:12.930Z] Fetching ID: 00ZXTt2CZOlT3BEeOuVG from Project: undefined
+[2026-01-18T06:47:14.607Z] ID 00ZXTt2CZOlT3BEeOuVG FOUND
+[2026-01-18T06:47:14.613Z] Fetching ID: 00ZXTt2CZOlT3BEeOuVG from Project: undefined
+[2026-01-18T06:47:14.996Z] ID 00ZXTt2CZOlT3BEeOuVG FOUND
+[2026-01-18T06:47:23.911Z] Fetching ID: 12d7BheobnW3Rq7FMkz0 from Project: undefined
+[2026-01-18T06:47:25.837Z] ID 12d7BheobnW3Rq7FMkz0 FOUND
+[2026-01-18T06:47:25.844Z] Fetching ID: 12d7BheobnW3Rq7FMkz0 from Project: undefined
+[2026-01-18T06:47:26.481Z] ID 12d7BheobnW3Rq7FMkz0 FOUND
+[2026-01-18T06:47:54.276Z] Fetching public roadmaps...
+[2026-01-18T06:47:54.950Z] Found 1 public roadmaps
+[2026-01-18T06:47:54.957Z] Fetching public roadmaps...
+[2026-01-18T06:47:56.292Z] Found 1 public roadmaps
+[2026-01-18T06:48:34.945Z] Fetching public roadmaps...
+[2026-01-18T06:48:35.614Z] Found 1 public roadmaps
+[2026-01-18T06:48:35.619Z] Fetching public roadmaps...
+[2026-01-18T06:48:36.925Z] Found 1 public roadmaps
+[2026-01-18T06:49:08.389Z] Fetching public roadmaps...
+[2026-01-18T06:49:09.064Z] Found 1 public roadmaps
+[2026-01-18T06:49:09.070Z] Fetching public roadmaps...
+[2026-01-18T06:49:10.344Z] Found 1 public roadmaps
+[2026-01-18T06:49:11.659Z] Fetching ID: rxHp6qkK8AU3E5KLdk1T from Project: undefined
+[2026-01-18T06:49:13.622Z] ID rxHp6qkK8AU3E5KLdk1T FOUND
+[2026-01-18T06:49:13.631Z] Fetching ID: rxHp6qkK8AU3E5KLdk1T from Project: undefined
+[2026-01-18T06:49:14.293Z] ID rxHp6qkK8AU3E5KLdk1T FOUND
+[2026-01-18T06:49:25.363Z] Fetching ID: rxHp6qkK8AU3E5KLdk1T from Project: undefined
+[2026-01-18T06:49:27.332Z] ID rxHp6qkK8AU3E5KLdk1T FOUND
+[2026-01-18T06:49:27.338Z] Fetching ID: rxHp6qkK8AU3E5KLdk1T from Project: undefined
+[2026-01-18T06:49:27.990Z] ID rxHp6qkK8AU3E5KLdk1T FOUND
+[2026-01-18T06:49:34.942Z] Fetching ID: rxHp6qkK8AU3E5KLdk1T from Project: undefined
+[2026-01-18T06:49:36.872Z] ID rxHp6qkK8AU3E5KLdk1T FOUND
+[2026-01-18T06:49:36.880Z] Fetching ID: rxHp6qkK8AU3E5KLdk1T from Project: undefined
+[2026-01-18T06:49:37.523Z] ID rxHp6qkK8AU3E5KLdk1T FOUND
+[2026-01-18T06:49:54.545Z] [Like] Request for ID: rxHp6qkK8AU3E5KLdk1T by User: zSZht9ZzFfRFQrxEIpvhMt0EKIh1
+[2026-01-18T06:49:56.201Z] [Like] Liked ID: rxHp6qkK8AU3E5KLdk1T
+[2026-01-18T06:50:13.490Z] Fetching public roadmaps...
+[2026-01-18T06:50:14.154Z] Found 1 public roadmaps
+[2026-01-18T06:50:14.160Z] Fetching public roadmaps...
+[2026-01-18T06:50:15.443Z] Found 1 public roadmaps
+[2026-01-18T06:53:32.122Z] Saving to Project: undefined
+[2026-01-18T06:53:33.105Z] Saved Roadmap ID: 7uatXeAz77VVfQapcNF9
+[2026-01-18T06:53:33.133Z] Fetching ID: 7uatXeAz77VVfQapcNF9 from Project: undefined
+[2026-01-18T06:53:35.270Z] ID 7uatXeAz77VVfQapcNF9 FOUND
+[2026-01-18T06:53:49.221Z] Fetching ID: 7uatXeAz77VVfQapcNF9 from Project: undefined
+[2026-01-18T06:53:50.882Z] ID 7uatXeAz77VVfQapcNF9 NOT FOUND in Project: undefined
+[2026-01-18T06:53:50.889Z] Fetching ID: 7uatXeAz77VVfQapcNF9 from Project: undefined
+[2026-01-18T06:53:51.220Z] ID 7uatXeAz77VVfQapcNF9 NOT FOUND in Project: undefined
+[2026-01-18T06:53:51.629Z] Fetching public roadmaps...
+[2026-01-18T06:53:52.096Z] Found 1 public roadmaps
+[2026-01-18T06:53:52.104Z] Fetching public roadmaps...
+[2026-01-18T06:53:52.572Z] Found 1 public roadmaps
+[2026-01-18T06:53:53.403Z] Fetching ID: rxHp6qkK8AU3E5KLdk1T from Project: undefined
+[2026-01-18T06:53:54.117Z] ID rxHp6qkK8AU3E5KLdk1T FOUND
+[2026-01-18T06:53:54.126Z] Fetching ID: rxHp6qkK8AU3E5KLdk1T from Project: undefined
+[2026-01-18T06:53:54.561Z] ID rxHp6qkK8AU3E5KLdk1T FOUND
+[2026-01-18T06:54:10.891Z] [Like] Request for ID: rxHp6qkK8AU3E5KLdk1T by User: iLb7dXhgJBMCdBuog6ohjXqrlej2
+[2026-01-18T06:54:11.792Z] [Like] Liked ID: rxHp6qkK8AU3E5KLdk1T
+[2026-01-18T06:54:18.999Z] Fetching public roadmaps...
+[2026-01-18T06:54:19.606Z] Found 1 public roadmaps
+[2026-01-18T06:54:19.612Z] Fetching public roadmaps...
+[2026-01-18T06:54:20.229Z] Found 1 public roadmaps
+[2026-01-18T06:56:08.236Z] Saving to Project: undefined
+[2026-01-18T06:56:08.985Z] Saved Roadmap ID: 84svbPGUApiLVDWOjW6s
+[2026-01-18T06:56:09.013Z] Fetching ID: 84svbPGUApiLVDWOjW6s from Project: undefined
+[2026-01-18T06:56:09.788Z] ID 84svbPGUApiLVDWOjW6s FOUND
+[2026-01-18T06:56:17.018Z] Fetching public roadmaps...
+[2026-01-18T06:56:17.773Z] Found 2 public roadmaps
+[2026-01-18T06:56:17.779Z] Fetching public roadmaps...
+[2026-01-18T06:56:18.534Z] Found 2 public roadmaps
+[2026-01-18T06:56:27.099Z] Fetching public roadmaps...
+[2026-01-18T06:56:27.857Z] Found 2 public roadmaps
+[2026-01-18T06:56:27.864Z] Fetching public roadmaps...
+[2026-01-18T06:56:28.788Z] Found 2 public roadmaps
+[2026-01-18T06:56:40.839Z] Fetching ID: 84svbPGUApiLVDWOjW6s from Project: undefined
+[2026-01-18T06:56:41.804Z] ID 84svbPGUApiLVDWOjW6s FOUND
+[2026-01-18T06:56:41.812Z] Fetching ID: 84svbPGUApiLVDWOjW6s from Project: undefined
+[2026-01-18T06:56:42.321Z] ID 84svbPGUApiLVDWOjW6s FOUND
+[2026-01-18T06:56:43.999Z] [Like] Request for ID: 84svbPGUApiLVDWOjW6s by User: zSZht9ZzFfRFQrxEIpvhMt0EKIh1
+[2026-01-18T06:56:45.085Z] [Like] Liked ID: 84svbPGUApiLVDWOjW6s
+[2026-01-18T06:58:43.897Z] Fetching ID: 84svbPGUApiLVDWOjW6s from Project: undefined
+[2026-01-18T06:58:45.952Z] ID 84svbPGUApiLVDWOjW6s FOUND
+[2026-01-18T06:58:45.963Z] Fetching ID: 84svbPGUApiLVDWOjW6s from Project: undefined
+[2026-01-18T06:58:46.690Z] ID 84svbPGUApiLVDWOjW6s FOUND
+[2026-01-18T06:58:48.339Z] Fetching public roadmaps...
+[2026-01-18T06:58:48.957Z] Found 2 public roadmaps
+[2026-01-18T06:58:48.966Z] Fetching public roadmaps...
+[2026-01-18T06:58:50.566Z] Found 2 public roadmaps
+[2026-01-18T07:01:06.071Z] Error generating: AI returned invalid JSON: 
+{
+    "title": "Machine Learning Mastery Roadmap for Beginners (6 Months, 1 hr/day)",
+    "descript
+[2026-01-18T07:03:28.832Z] Fetching public roadmaps...
+[2026-01-18T07:03:31.169Z] Found 2 public roadmaps
+[2026-01-18T07:03:31.177Z] Fetching public roadmaps...
+[2026-01-18T07:03:32.136Z] Found 2 public roadmaps
+[2026-01-18T07:04:35.085Z] Saving to Project: undefined
+[2026-01-18T07:04:35.882Z] Saved Roadmap ID: zlifWKCuGO5fK1UTKSUF
+[2026-01-18T07:04:35.908Z] Fetching ID: zlifWKCuGO5fK1UTKSUF from Project: undefined
+[2026-01-18T07:04:37.907Z] ID zlifWKCuGO5fK1UTKSUF FOUND
+[2026-01-18T07:04:46.928Z] Fetching public roadmaps...
+[2026-01-18T07:04:48.106Z] Found 3 public roadmaps
+[2026-01-18T07:04:48.115Z] Fetching public roadmaps...
+[2026-01-18T07:04:49.361Z] Found 3 public roadmaps
+[2026-01-18T07:04:49.367Z] Fetching public roadmaps...
+[2026-01-18T07:04:50.557Z] Found 3 public roadmaps
+[2026-01-18T07:04:50.565Z] Fetching public roadmaps...
+[2026-01-18T07:04:51.839Z] Found 3 public roadmaps
+[2026-01-18T07:05:04.264Z] Fetching public roadmaps...
+[2026-01-18T07:05:06.502Z] Found 3 public roadmaps
+[2026-01-18T07:05:06.510Z] Fetching public roadmaps...
+[2026-01-18T07:05:07.675Z] Found 3 public roadmaps
+[2026-01-18T07:05:23.587Z] Fetching public roadmaps...
+[2026-01-18T07:05:24.779Z] Found 3 public roadmaps
+[2026-01-18T07:05:24.788Z] Fetching public roadmaps...
+[2026-01-18T07:05:26.054Z] Found 3 public roadmaps
+[2026-01-18T07:11:54.384Z] Fetching public roadmaps from DB...
+[2026-01-18T07:11:57.270Z] Found 3 public roadmaps
+[2026-01-18T07:11:57.306Z] Returning cached public roadmaps
+[2026-01-18T07:12:24.479Z] Fetching ID: 84svbPGUApiLVDWOjW6s from Project: undefined
+[2026-01-18T07:12:26.396Z] ID 84svbPGUApiLVDWOjW6s FOUND
+[2026-01-18T07:12:26.406Z] Fetching ID: 84svbPGUApiLVDWOjW6s from Project: undefined
+[2026-01-18T07:12:27.114Z] ID 84svbPGUApiLVDWOjW6s FOUND
+[2026-01-18T07:13:31.045Z] Returning cached public roadmaps
+[2026-01-18T07:13:31.052Z] Returning cached public roadmaps
+[2026-01-18T07:13:37.538Z] Fetching ID: 00ZXTt2CZOlT3BEeOuVG from Project: undefined
+[2026-01-18T07:13:39.084Z] ID 00ZXTt2CZOlT3BEeOuVG FOUND
+[2026-01-18T07:13:39.092Z] Fetching ID: 00ZXTt2CZOlT3BEeOuVG from Project: undefined
+[2026-01-18T07:13:39.577Z] ID 00ZXTt2CZOlT3BEeOuVG FOUND
+[2026-01-18T07:13:49.758Z] Fetching ID: 12d7BheobnW3Rq7FMkz0 from Project: undefined
+[2026-01-18T07:13:51.568Z] ID 12d7BheobnW3Rq7FMkz0 FOUND
+[2026-01-18T07:13:51.577Z] Fetching ID: 12d7BheobnW3Rq7FMkz0 from Project: undefined
+[2026-01-18T07:13:52.184Z] ID 12d7BheobnW3Rq7FMkz0 FOUND
+[2026-01-18T07:14:01.568Z] Fetching ID: 21jQWYzDvqebamdviBXn from Project: undefined
+[2026-01-18T07:14:03.325Z] ID 21jQWYzDvqebamdviBXn FOUND
+[2026-01-18T07:14:03.337Z] Fetching ID: 21jQWYzDvqebamdviBXn from Project: undefined
+[2026-01-18T07:14:03.922Z] ID 21jQWYzDvqebamdviBXn FOUND
+[2026-01-18T07:14:13.120Z] Fetching ID: 27EF8ORnnkInJR9NvsQy from Project: undefined
+[2026-01-18T07:14:14.863Z] ID 27EF8ORnnkInJR9NvsQy FOUND
+[2026-01-18T07:14:14.874Z] Fetching ID: 27EF8ORnnkInJR9NvsQy from Project: undefined
+[2026-01-18T07:14:15.435Z] ID 27EF8ORnnkInJR9NvsQy FOUND
+[2026-01-18T07:14:22.755Z] Returning cached public roadmaps
+[2026-01-18T07:14:22.759Z] Returning cached public roadmaps
+[2026-01-18T07:14:28.254Z] Returning cached public roadmaps
+[2026-01-18T07:14:28.261Z] Returning cached public roadmaps
+[2026-01-18T07:14:30.942Z] Returning cached public roadmaps
+[2026-01-18T07:14:30.949Z] Returning cached public roadmaps
+[2026-01-18T07:15:17.905Z] Returning cached public roadmaps
+[2026-01-18T07:15:17.933Z] Returning cached public roadmaps
+[2026-01-18T07:15:27.676Z] Fetching ID: 66XOoW3yhTfKZYBzHgLf from Project: undefined
+[2026-01-18T07:15:29.446Z] ID 66XOoW3yhTfKZYBzHgLf FOUND
+[2026-01-18T07:15:29.454Z] Fetching ID: 66XOoW3yhTfKZYBzHgLf from Project: undefined
+[2026-01-18T07:15:30.547Z] ID 66XOoW3yhTfKZYBzHgLf FOUND
+[2026-01-18T07:15:43.054Z] Fetching ID: rxHp6qkK8AU3E5KLdk1T from Project: undefined
+[2026-01-18T07:15:44.825Z] ID rxHp6qkK8AU3E5KLdk1T FOUND
+[2026-01-18T07:15:44.838Z] Fetching ID: rxHp6qkK8AU3E5KLdk1T from Project: undefined
+[2026-01-18T07:15:45.445Z] ID rxHp6qkK8AU3E5KLdk1T FOUND
+[2026-01-18T07:16:19.973Z] Fetching ID: 84svbPGUApiLVDWOjW6s from Project: undefined
+[2026-01-18T07:16:21.814Z] ID 84svbPGUApiLVDWOjW6s FOUND
+[2026-01-18T07:16:21.823Z] Fetching ID: 84svbPGUApiLVDWOjW6s from Project: undefined
+[2026-01-18T07:16:22.520Z] ID 84svbPGUApiLVDWOjW6s FOUND
+[2026-01-18T07:21:22.356Z] Fetching ID: 84svbPGUApiLVDWOjW6s from Project: undefined
+[2026-01-18T07:21:24.532Z] ID 84svbPGUApiLVDWOjW6s FOUND
+[2026-01-18T07:22:44.210Z] Fetching public roadmaps from DB...
+[2026-01-18T07:22:47.321Z] Found 3 public roadmaps
+[2026-01-18T07:22:47.339Z] Returning cached public roadmaps
+[2026-01-18T07:23:05.066Z] Returning cached public roadmaps
+[2026-01-18T07:23:05.091Z] Returning cached public roadmaps
+[2026-01-18T07:23:11.588Z] Returning cached public roadmaps
+[2026-01-18T07:23:11.606Z] Returning cached public roadmaps
+[2026-01-18T07:26:19.854Z] Saving to Project: undefined
+[2026-01-18T07:26:20.681Z] Saved Roadmap ID: SP2hWAIECWv8Ci9QaVfC
+[2026-01-18T07:26:20.756Z] Fetching ID: SP2hWAIECWv8Ci9QaVfC from Project: undefined
+[2026-01-18T07:26:22.779Z] ID SP2hWAIECWv8Ci9QaVfC FOUND
+[2026-01-18T07:27:34.460Z] Fetching ID: SP2hWAIECWv8Ci9QaVfC from Project: undefined
+[2026-01-18T07:27:36.509Z] ID SP2hWAIECWv8Ci9QaVfC FOUND
+[2026-01-18T07:27:36.515Z] Fetching ID: SP2hWAIECWv8Ci9QaVfC from Project: undefined
+[2026-01-18T07:27:37.348Z] ID SP2hWAIECWv8Ci9QaVfC FOUND
+[2026-01-18T07:28:10.006Z] Fetching public roadmaps from DB...
+[2026-01-18T07:28:11.357Z] Found 4 public roadmaps
+[2026-01-18T07:28:11.368Z] Returning cached public roadmaps
+[2026-01-18T07:29:14.946Z] Returning cached public roadmaps
+[2026-01-18T07:29:14.957Z] Returning cached public roadmaps
+[2026-01-18T07:29:22.711Z] Returning cached public roadmaps
+[2026-01-18T07:29:22.720Z] Returning cached public roadmaps
+[2026-01-18T07:29:24.673Z] Returning cached public roadmaps
+[2026-01-18T07:29:24.678Z] Returning cached public roadmaps
+[2026-01-18T07:29:27.588Z] Returning cached public roadmaps
+[2026-01-18T07:29:27.593Z] Returning cached public roadmaps
+[2026-01-18T07:31:15.424Z] Saving to Project: undefined
+[2026-01-18T07:31:16.143Z] Saved Roadmap ID: 2r2440CmUPn8vLffKB9R
+[2026-01-18T07:31:16.174Z] Fetching ID: 2r2440CmUPn8vLffKB9R from Project: undefined
+[2026-01-18T07:31:18.113Z] ID 2r2440CmUPn8vLffKB9R FOUND
+[2026-01-18T07:31:24.681Z] Fetching ID: 2r2440CmUPn8vLffKB9R from Project: undefined
+[2026-01-18T07:31:26.603Z] ID 2r2440CmUPn8vLffKB9R FOUND
+[2026-01-18T07:31:26.609Z] Fetching ID: 2r2440CmUPn8vLffKB9R from Project: undefined
+[2026-01-18T07:31:27.237Z] ID 2r2440CmUPn8vLffKB9R FOUND
+[2026-01-18T07:31:32.555Z] Fetching public roadmaps from DB...
+[2026-01-18T07:31:34.316Z] Found 5 public roadmaps
+[2026-01-18T07:31:34.325Z] Returning cached public roadmaps
+[2026-01-18T07:31:40.647Z] Fetching ID: 27EF8ORnnkInJR9NvsQy from Project: undefined
+[2026-01-18T07:31:42.567Z] ID 27EF8ORnnkInJR9NvsQy FOUND
+[2026-01-18T07:31:42.571Z] Fetching ID: 27EF8ORnnkInJR9NvsQy from Project: undefined
+[2026-01-18T07:31:43.193Z] ID 27EF8ORnnkInJR9NvsQy FOUND
+[2026-01-18T07:31:51.688Z] Returning cached public roadmaps
+[2026-01-18T07:31:51.694Z] Returning cached public roadmaps
+[2026-01-18T07:31:52.728Z] Fetching ID: 2r2440CmUPn8vLffKB9R from Project: undefined
+[2026-01-18T07:31:54.713Z] ID 2r2440CmUPn8vLffKB9R FOUND
+[2026-01-18T07:31:54.718Z] Fetching ID: 2r2440CmUPn8vLffKB9R from Project: undefined
+[2026-01-18T07:31:55.357Z] ID 2r2440CmUPn8vLffKB9R FOUND
+[2026-01-18T07:31:57.083Z] Returning cached public roadmaps
+[2026-01-18T07:31:57.088Z] Returning cached public roadmaps
+[2026-01-18T18:38:43.579Z] Fetching public roadmaps from DB...
+[2026-01-18T18:38:46.511Z] Found 5 public roadmaps
+[2026-01-18T18:38:46.534Z] Returning cached public roadmaps
+[2026-01-18T18:40:44.405Z] Saving to Project: undefined
+[2026-01-18T18:40:45.206Z] Saved Roadmap ID: uZPmfiGH3wh7MEUhhuPO
+[2026-01-18T18:40:45.235Z] Fetching ID: uZPmfiGH3wh7MEUhhuPO from Project: undefined
+[2026-01-18T18:40:47.118Z] ID uZPmfiGH3wh7MEUhhuPO FOUND
+[2026-01-18T18:41:04.965Z] Fetching ID: uZPmfiGH3wh7MEUhhuPO from Project: undefined
+[2026-01-18T18:41:06.844Z] ID uZPmfiGH3wh7MEUhhuPO FOUND
+[2026-01-18T18:41:06.854Z] Fetching ID: uZPmfiGH3wh7MEUhhuPO from Project: undefined
+[2026-01-18T18:41:07.484Z] ID uZPmfiGH3wh7MEUhhuPO FOUND
+[2026-01-18T18:41:12.076Z] Fetching public roadmaps from DB...
+[2026-01-18T18:41:13.572Z] Found 6 public roadmaps
+[2026-01-18T18:41:13.587Z] Returning cached public roadmaps
+[2026-01-18T18:41:16.597Z] Returning cached public roadmaps
+[2026-01-18T18:41:16.604Z] Returning cached public roadmaps
+[2026-01-18T18:41:21.746Z] Returning cached public roadmaps
+[2026-01-18T18:41:21.753Z] Returning cached public roadmaps
+[2026-01-18T18:41:23.747Z] Returning cached public roadmaps
+[2026-01-18T18:41:23.755Z] Returning cached public roadmaps
+[2026-01-18T18:41:25.460Z] Returning cached public roadmaps
+[2026-01-18T18:41:25.467Z] Returning cached public roadmaps
+[2026-01-19T03:43:00.149Z] Fetching public roadmaps from DB...
+[2026-01-19T03:43:01.845Z] Found 6 public roadmaps
+[2026-01-19T03:43:01.856Z] Returning cached public roadmaps
+[2026-01-19T03:43:11.660Z] Returning cached public roadmaps
+[2026-01-19T03:43:11.674Z] Returning cached public roadmaps
+[2026-01-19T03:47:37.547Z] Saving to Project: undefined
+[2026-01-19T03:47:38.257Z] Saved Roadmap ID: PLuvuHVcSGXcZopM7Q9o
+[2026-01-19T03:47:38.285Z] Fetching ID: PLuvuHVcSGXcZopM7Q9o from Project: undefined
+[2026-01-19T03:47:39.936Z] ID PLuvuHVcSGXcZopM7Q9o FOUND
+[2026-01-19T03:47:50.364Z] Fetching ID: uZPmfiGH3wh7MEUhhuPO from Project: undefined
+[2026-01-19T03:47:52.134Z] ID uZPmfiGH3wh7MEUhhuPO FOUND
+[2026-01-19T03:47:52.143Z] Fetching ID: uZPmfiGH3wh7MEUhhuPO from Project: undefined
+[2026-01-19T03:47:53.595Z] ID uZPmfiGH3wh7MEUhhuPO FOUND
+[2026-01-19T03:51:59.249Z] Fetching public roadmaps from DB...
+[2026-01-19T03:52:05.115Z] Found 6 public roadmaps
+[2026-01-19T03:52:05.639Z] Returning cached public roadmaps
+[2026-01-19T03:53:56.151Z] Saving to Project: undefined
+[2026-01-19T03:53:57.076Z] Saved Roadmap ID: 7kvbnGObrNt7bu2xuyQZ
+[2026-01-19T03:53:57.147Z] Fetching ID: 7kvbnGObrNt7bu2xuyQZ from Project: undefined
+[2026-01-19T03:53:59.256Z] ID 7kvbnGObrNt7bu2xuyQZ FOUND
+[2026-01-19T03:54:29.245Z] Fetching public roadmaps from DB...
+[2026-01-19T03:54:30.964Z] Found 7 public roadmaps
+[2026-01-19T03:54:31.076Z] Returning cached public roadmaps
+[2026-01-19T07:19:09.684Z] Fetching public roadmaps from DB...
+[2026-01-19T07:19:11.740Z] Found 7 public roadmaps
+[2026-01-19T07:19:11.760Z] Returning cached public roadmaps
+[2026-01-19T07:19:50.779Z] Returning cached public roadmaps
+[2026-01-19T07:19:50.793Z] Returning cached public roadmaps
+[2026-01-19T07:21:37.289Z] Saving to Project: undefined
+[2026-01-19T07:21:38.050Z] Saved Roadmap ID: XdIvyMhk79VWO0r6D0EH
+[2026-01-19T07:21:38.079Z] Fetching ID: XdIvyMhk79VWO0r6D0EH from Project: undefined
+[2026-01-19T07:21:40.144Z] ID XdIvyMhk79VWO0r6D0EH FOUND
+[2026-01-19T07:21:49.060Z] Fetching public roadmaps from DB...
+[2026-01-19T07:21:51.167Z] Found 8 public roadmaps
+[2026-01-19T07:21:51.188Z] Returning cached public roadmaps
+[2026-01-19T07:21:56.802Z] Returning cached public roadmaps
+[2026-01-19T07:21:56.812Z] Returning cached public roadmaps
+[2026-01-19T10:23:11.683Z] Fetching public roadmaps from DB...
+[2026-01-19T10:23:14.685Z] Found 8 public roadmaps
+[2026-01-19T10:23:14.700Z] Returning cached public roadmaps
+[2026-01-19T10:25:16.355Z] Saving to Project: undefined
+[2026-01-19T10:25:17.227Z] Saved Roadmap ID: AnKX5Nxre85bpWBZr9Ou
+[2026-01-19T10:25:17.259Z] Fetching ID: AnKX5Nxre85bpWBZr9Ou from Project: undefined
+[2026-01-19T10:25:18.894Z] ID AnKX5Nxre85bpWBZr9Ou FOUND
+[2026-01-19T10:25:25.909Z] Fetching ID: AnKX5Nxre85bpWBZr9Ou from Project: undefined
+[2026-01-19T10:25:27.586Z] ID AnKX5Nxre85bpWBZr9Ou FOUND
+[2026-01-19T10:25:27.597Z] Fetching ID: AnKX5Nxre85bpWBZr9Ou from Project: undefined
+[2026-01-19T10:25:28.091Z] ID AnKX5Nxre85bpWBZr9Ou FOUND
+[2026-01-19T10:25:33.911Z] Fetching public roadmaps from DB...
+[2026-01-19T10:25:35.824Z] Found 9 public roadmaps
+[2026-01-19T10:25:35.849Z] Returning cached public roadmaps
+[2026-01-19T10:25:36.036Z] Returning cached public roadmaps
+[2026-01-19T10:25:36.047Z] Returning cached public roadmaps
+[2026-01-19T10:25:40.852Z] Returning cached public roadmaps
+[2026-01-19T10:25:40.869Z] Returning cached public roadmaps
+[2026-01-19T10:25:42.300Z] Fetching ID: AnKX5Nxre85bpWBZr9Ou from Project: undefined
+[2026-01-19T10:25:43.914Z] ID AnKX5Nxre85bpWBZr9Ou FOUND
+[2026-01-19T10:25:43.924Z] Fetching ID: AnKX5Nxre85bpWBZr9Ou from Project: undefined
+[2026-01-19T10:25:44.387Z] ID AnKX5Nxre85bpWBZr9Ou FOUND
+[2026-01-20T05:35:29.713Z] Fetching public roadmaps from DB...
+[2026-01-20T05:35:33.593Z] Found 9 public roadmaps
+[2026-01-20T05:35:33.613Z] Returning cached public roadmaps
+[2026-01-20T05:35:58.795Z] Returning cached public roadmaps
+[2026-01-20T05:35:58.929Z] Returning cached public roadmaps
+[2026-01-20T05:45:54.408Z] Fetching public roadmaps from DB...
+[2026-01-20T05:45:56.696Z] Found 9 public roadmaps
+[2026-01-20T05:45:56.706Z] Returning cached public roadmaps
+[2026-01-20T05:45:59.304Z] Fetching ID: AnKX5Nxre85bpWBZr9Ou from Project: undefined
+[2026-01-20T05:46:01.229Z] ID AnKX5Nxre85bpWBZr9Ou FOUND
+[2026-01-20T05:46:01.241Z] Fetching ID: AnKX5Nxre85bpWBZr9Ou from Project: undefined
+[2026-01-20T05:46:01.785Z] ID AnKX5Nxre85bpWBZr9Ou FOUND
+[2026-01-20T05:46:52.187Z] Fetching ID: XdIvyMhk79VWO0r6D0EH from Project: undefined
+[2026-01-20T05:46:54.427Z] ID XdIvyMhk79VWO0r6D0EH FOUND
+[2026-01-20T05:46:54.437Z] Fetching ID: XdIvyMhk79VWO0r6D0EH from Project: undefined
+[2026-01-20T05:46:54.929Z] Fetching ID: AnKX5Nxre85bpWBZr9Ou from Project: undefined
+[2026-01-20T05:46:55.908Z] Returning cached public roadmaps
+[2026-01-20T05:46:55.917Z] Returning cached public roadmaps
+[2026-01-20T05:46:56.005Z] ID XdIvyMhk79VWO0r6D0EH FOUND
+[2026-01-20T05:46:56.811Z] ID AnKX5Nxre85bpWBZr9Ou NOT FOUND in Project: undefined
+[2026-01-20T05:46:56.821Z] Fetching ID: AnKX5Nxre85bpWBZr9Ou from Project: undefined
+[2026-01-20T05:46:57.337Z] ID AnKX5Nxre85bpWBZr9Ou NOT FOUND in Project: undefined
+[2026-01-20T05:47:19.103Z] Returning cached public roadmaps
+[2026-01-20T05:47:19.121Z] Returning cached public roadmaps
+[2026-01-20T05:50:31.442Z] Returning cached public roadmaps
+[2026-01-20T05:50:31.489Z] Returning cached public roadmaps
+[2026-01-20T05:54:06.201Z] Fetching public roadmaps from DB...
+[2026-01-20T05:54:08.508Z] Found 8 public roadmaps
+[2026-01-20T05:54:08.528Z] Returning cached public roadmaps
+[2026-01-20T06:01:12.390Z] Fetching public roadmaps from DB...
+[2026-01-20T06:01:15.930Z] Found 8 public roadmaps
+[2026-01-20T06:01:15.940Z] Returning cached public roadmaps
+[2026-01-20T06:03:45.738Z] Returning cached public roadmaps
+[2026-01-20T06:05:49.586Z] Returning cached public roadmaps
+[2026-01-20T06:05:49.596Z] Returning cached public roadmaps
+[2026-01-20T06:11:12.867Z] Fetching public roadmaps from DB...
+[2026-01-20T06:11:14.651Z] Found 8 public roadmaps
+[2026-01-20T06:11:14.662Z] Returning cached public roadmaps
+[2026-01-20T06:15:33.763Z] Saving to Project: undefined
+[2026-01-20T06:15:36.325Z] Saved Roadmap ID: FkWDFssuEGnpV9QZNXUw
+[2026-01-20T06:15:36.357Z] Fetching ID: FkWDFssuEGnpV9QZNXUw from Project: undefined
+[2026-01-20T06:15:38.216Z] ID FkWDFssuEGnpV9QZNXUw FOUND
+[2026-01-20T06:15:47.054Z] Fetching ID: FkWDFssuEGnpV9QZNXUw from Project: undefined
+[2026-01-20T06:15:49.063Z] ID FkWDFssuEGnpV9QZNXUw FOUND
+[2026-01-20T06:15:49.072Z] Fetching ID: FkWDFssuEGnpV9QZNXUw from Project: undefined
+[2026-01-20T06:15:50.413Z] ID FkWDFssuEGnpV9QZNXUw FOUND
+[2026-01-20T06:19:45.265Z] Fetching ID: FkWDFssuEGnpV9QZNXUw from Project: undefined
+[2026-01-20T06:19:47.309Z] ID FkWDFssuEGnpV9QZNXUw FOUND
+[2026-01-20T06:19:47.322Z] Fetching ID: FkWDFssuEGnpV9QZNXUw from Project: undefined
+[2026-01-20T06:19:47.835Z] ID FkWDFssuEGnpV9QZNXUw FOUND
+[2026-01-20T06:19:54.279Z] Fetching ID: FkWDFssuEGnpV9QZNXUw from Project: undefined
+[2026-01-20T06:19:56.224Z] ID FkWDFssuEGnpV9QZNXUw FOUND
+[2026-01-20T06:19:56.234Z] Fetching ID: FkWDFssuEGnpV9QZNXUw from Project: undefined
+[2026-01-20T06:19:57.026Z] ID FkWDFssuEGnpV9QZNXUw FOUND
+[2026-01-20T06:36:04.717Z] Fetching public roadmaps from DB...
+[2026-01-20T06:36:09.526Z] Found 9 public roadmaps
+[2026-01-20T06:36:09.568Z] Returning cached public roadmaps
+[2026-01-20T06:36:09.627Z] Returning cached public roadmaps
+[2026-01-20T06:36:09.666Z] Returning cached public roadmaps
+[2026-01-20T06:36:12.533Z] Fetching ID: FkWDFssuEGnpV9QZNXUw from Project: undefined
+[2026-01-20T06:36:14.438Z] ID FkWDFssuEGnpV9QZNXUw FOUND
+[2026-01-20T06:36:14.476Z] Fetching ID: FkWDFssuEGnpV9QZNXUw from Project: undefined
+[2026-01-20T06:36:15.100Z] ID FkWDFssuEGnpV9QZNXUw FOUND
+[2026-01-20T06:36:16.830Z] Returning cached public roadmaps
+[2026-01-20T06:36:16.877Z] Returning cached public roadmaps
+[2026-01-20T06:36:37.235Z] Fetching ID: FkWDFssuEGnpV9QZNXUw from Project: undefined
+[2026-01-20T06:36:38.946Z] Returning cached public roadmaps
+[2026-01-20T06:36:38.963Z] Returning cached public roadmaps
+[2026-01-20T06:36:39.054Z] ID FkWDFssuEGnpV9QZNXUw FOUND
+[2026-01-20T06:36:39.061Z] Fetching ID: FkWDFssuEGnpV9QZNXUw from Project: undefined
+[2026-01-20T06:36:39.656Z] ID FkWDFssuEGnpV9QZNXUw FOUND
+[2026-01-20T06:39:21.548Z] Returning cached public roadmaps
+[2026-01-20T06:39:21.575Z] Returning cached public roadmaps
+[2026-01-20T06:39:59.290Z] Returning cached public roadmaps
+[2026-01-20T06:39:59.339Z] Returning cached public roadmaps
+[2026-01-20T06:40:49.621Z] Error generating: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [503 Service Unavailable] The model is overloaded. Please try again later.
+[2026-01-20T06:40:56.073Z] Error generating: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [503 Service Unavailable] The model is overloaded. Please try again later.
+[2026-01-20T06:41:24.670Z] Fetching public roadmaps from DB...
+[2026-01-20T06:41:27.885Z] Found 9 public roadmaps
+[2026-01-20T06:41:27.911Z] Returning cached public roadmaps
+[2026-01-20T06:42:05.395Z] Error generating: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [503 Service Unavailable] The model is overloaded. Please try again later.
+[2026-01-20T06:42:30.140Z] Error generating: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [503 Service Unavailable] The model is overloaded. Please try again later.
+[2026-01-20T06:43:58.016Z] Returning cached public roadmaps
+[2026-01-20T06:43:58.026Z] Returning cached public roadmaps
+[2026-01-20T06:44:16.061Z] Error generating: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [503 Service Unavailable] The model is overloaded. Please try again later.
+[2026-01-20T06:45:54.157Z] Fetching public roadmaps from DB...
+[2026-01-20T06:45:57.775Z] Found 9 public roadmaps
+[2026-01-20T06:45:57.792Z] Returning cached public roadmaps
+[2026-01-20T07:11:53.303Z] Fetching public roadmaps from DB...
+[2026-01-20T07:11:55.496Z] Fetching public roadmaps from DB...
+[2026-01-20T07:11:56.277Z] Fetching public roadmaps from DB...
+[2026-01-20T07:11:56.538Z] Found 9 public roadmaps
+[2026-01-20T07:11:57.122Z] Found 9 public roadmaps
+[2026-01-20T07:11:58.314Z] Found 9 public roadmaps
+[2026-01-20T07:11:58.332Z] Returning cached public roadmaps
+[2026-01-20T07:14:17.907Z] Fetching public roadmaps from DB...
+[2026-01-20T07:14:20.732Z] Fetching public roadmaps from DB...
+[2026-01-20T07:14:21.380Z] Found 9 public roadmaps
+[2026-01-20T07:14:24.000Z] Found 9 public roadmaps
+[2026-01-20T07:14:24.020Z] Returning cached public roadmaps
+[2026-01-20T07:14:46.011Z] Returning cached public roadmaps
+[2026-01-20T07:14:46.034Z] Returning cached public roadmaps
+[2026-01-20T07:15:02.609Z] Returning cached public roadmaps
+[2026-01-20T07:15:02.743Z] Returning cached public roadmaps
+[2026-01-20T07:15:24.737Z] Returning cached public roadmaps
+[2026-01-20T07:15:24.749Z] Returning cached public roadmaps
+[2026-01-20T07:19:41.248Z] Saving to Project: undefined
+[2026-01-20T07:19:43.247Z] Saved Roadmap ID: OGRKnt6M6kHvsR4hUZWH
+[2026-01-20T07:19:43.271Z] Fetching ID: OGRKnt6M6kHvsR4hUZWH from Project: undefined
+[2026-01-20T07:19:43.699Z] ID OGRKnt6M6kHvsR4hUZWH FOUND
+[2026-01-20T07:19:50.690Z] Fetching ID: OGRKnt6M6kHvsR4hUZWH from Project: undefined
+[2026-01-20T07:19:52.341Z] ID OGRKnt6M6kHvsR4hUZWH FOUND
+[2026-01-20T07:19:52.346Z] Fetching ID: OGRKnt6M6kHvsR4hUZWH from Project: undefined
+[2026-01-20T07:19:52.747Z] ID OGRKnt6M6kHvsR4hUZWH FOUND
+[2026-01-20T07:20:05.559Z] Fetching public roadmaps from DB...
+[2026-01-20T07:20:07.240Z] Found 10 public roadmaps
+[2026-01-20T07:20:07.254Z] Returning cached public roadmaps
+[2026-01-20T07:20:10.663Z] Fetching ID: OGRKnt6M6kHvsR4hUZWH from Project: undefined
+[2026-01-20T07:20:12.405Z] ID OGRKnt6M6kHvsR4hUZWH FOUND
+[2026-01-20T07:20:12.409Z] Fetching ID: OGRKnt6M6kHvsR4hUZWH from Project: undefined
+[2026-01-20T07:20:12.819Z] ID OGRKnt6M6kHvsR4hUZWH FOUND
+[2026-01-20T07:21:41.473Z] Returning cached public roadmaps
+[2026-01-20T07:21:41.484Z] Returning cached public roadmaps
+[2026-01-20T07:24:26.400Z] Returning cached public roadmaps
+[2026-01-20T07:24:26.464Z] Returning cached public roadmaps
+[2026-01-20T07:26:17.663Z] Fetching public roadmaps from DB...
+[2026-01-20T07:26:20.584Z] Found 10 public roadmaps
+[2026-01-20T07:26:20.605Z] Returning cached public roadmaps
