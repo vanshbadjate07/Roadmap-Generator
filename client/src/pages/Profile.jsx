@@ -1,13 +1,15 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
-import { Clock, BookOpen, Trash2, ArrowRight, Eye, Archive } from 'lucide-react';
+import SettingsModal from '../components/SettingsModal';
+import { Clock, BookOpen, Trash2, ArrowRight, Eye, Archive, Settings, LogOut } from 'lucide-react';
 import { useAuth } from '../contexts/AuthContext';
 
 const Profile = () => {
-    const { currentUser } = useAuth();
+    const { currentUser, logout } = useAuth();
     const [savedRoadmaps, setSavedRoadmaps] = useState([]);
     const [loading, setLoading] = useState(true);
+    const [isSettingsOpen, setIsSettingsOpen] = useState(false);
 
     useEffect(() => {
         if (!currentUser) return;
@@ -29,10 +31,20 @@ const Profile = () => {
         fetchData();
     }, [currentUser]);
 
+    const handleLogout = async () => {
+        try {
+            await logout();
+        } catch (error) {
+            console.error("Failed to log out", error);
+        }
+    };
+
     if (!currentUser) return <div className="text-center py-20 text-gray-400">Please login to view profile.</div>;
 
     return (
         <div className="max-w-7xl mx-auto px-6 py-12">
+            <SettingsModal isOpen={isSettingsOpen} onClose={() => setIsSettingsOpen(false)} />
+
             <div className="flex flex-col md:flex-row items-center gap-8 mb-12">
                 <div className="relative">
                     <div className="absolute inset-0 bg-primary/20 hover:bg-primary/30 rounded-full blur-xl transition-all"></div>
@@ -43,8 +55,27 @@ const Profile = () => {
                     />
                 </div>
                 <div className="text-center md:text-left flex-1">
-                    <h1 className="text-4xl font-bold font-heading mb-2 text-white">{currentUser.displayName}</h1>
-                    <p className="text-gray-400 font-mono text-sm mb-6">{currentUser.email}</p>
+                    <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-2">
+                        <div>
+                            <h1 className="text-4xl font-bold font-heading text-white">{currentUser.displayName}</h1>
+                            <p className="text-gray-400 font-mono text-sm mb-4">{currentUser.email}</p>
+                        </div>
+
+                        <div className="flex gap-3 justify-center md:justify-start">
+                            <button
+                                onClick={() => setIsSettingsOpen(true)}
+                                className="px-4 py-2 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 text-white font-bold text-sm flex items-center gap-2 transition-all"
+                            >
+                                <Settings size={16} /> Settings
+                            </button>
+                            <button
+                                onClick={handleLogout}
+                                className="px-4 py-2 rounded-xl bg-red-500/10 hover:bg-red-500/20 border border-red-500/20 text-red-500 font-bold text-sm flex items-center gap-2 transition-all"
+                            >
+                                <LogOut size={16} /> Logout
+                            </button>
+                        </div>
+                    </div>
 
                     <div className="bg-card border border-white/5 px-6 py-3 rounded-xl inline-block text-center md:text-left">
                         <span className="block text-2xl font-bold text-primary mb-1">{savedRoadmaps.length}</span>
