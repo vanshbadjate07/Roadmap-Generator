@@ -24,12 +24,27 @@ const getDate = (item) => {
 const createRoadmap = async (req, res) => {
     try {
         const { topic, level, skills, goal, duration, hoursPerDay } = req.body;
+        const userGeminiKey = req.headers['x-gemini-api-key']; // extract user key
 
         if (!topic) {
             return res.status(400).json({ error: "Topic is required" });
         }
 
-        const roadmapContent = await generateRoadmapContent(topic, level, skills, goal, duration, hoursPerDay);
+        if (userGeminiKey) {
+            logDebug("Using User-Provided Gemini Key");
+        } else {
+            logDebug("Using Server-Default Gemini Key");
+        }
+
+        const roadmapContent = await generateRoadmapContent(
+            topic,
+            level,
+            skills,
+            goal,
+            duration,
+            hoursPerDay,
+            userGeminiKey // Pass key
+        );
 
         // Return generated content directly (client can review before saving)
         res.json(roadmapContent);

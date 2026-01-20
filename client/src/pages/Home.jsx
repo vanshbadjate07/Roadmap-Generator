@@ -87,13 +87,23 @@ const Home = () => {
         setShowConfig(false);
 
         try {
+            const token = await currentUser.getIdToken();
+            const userKey = localStorage.getItem('user_gemini_key');
+
+            const headers = {
+                Authorization: `Bearer ${token}`
+            };
+            if (userKey) {
+                headers['x-gemini-api-key'] = userKey;
+            }
+
             const genResponse = await axios.post('/api/generate', {
                 topic,
                 level,
                 goal,
                 duration,
                 hoursPerDay
-            });
+            }, { headers });
             const roadmapData = genResponse.data;
 
             // Navigate to PREVIEW mode without saving to DB yet

@@ -1,11 +1,14 @@
 const { GoogleGenerativeAI } = require("@google/generative-ai");
 require('dotenv').config();
 
-const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
+// Default instance for server usage
+const defaultGenAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
 
-const generateRoadmapContent = async (topic, level, skills, goal, duration, hoursPerDay) => {
+const generateRoadmapContent = async (topic, level, skills, goal, duration, hoursPerDay, userApiKey = null) => {
     try {
-        const model = genAI.getGenerativeModel({ model: "gemini-3-flash-preview" });
+        // Use user's key if provided, otherwise default
+        const client = userApiKey ? new GoogleGenerativeAI(userApiKey) : defaultGenAI;
+        const model = client.getGenerativeModel({ model: "gemini-1.5-flash" }); // Use a stable model name
 
         const prompt = `
         Create a highly detailed, industry-ready learning roadmap for: "${topic}".
