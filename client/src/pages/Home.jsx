@@ -2,8 +2,9 @@ import React, { useState, useRef, useEffect } from 'react';
 import RoadmapLoader from '../components/RoadmapLoader';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
-import { Loader2, Wand2, Sparkles, ChevronRight, X, Clock, Calendar, Target, Heart } from 'lucide-react';
+import { Loader2, Wand2, Sparkles, ChevronRight, X, Clock, Calendar, Target, Heart, Settings } from 'lucide-react';
 import { useAuth } from '../contexts/AuthContext';
+import SettingsModal from '../components/SettingsModal';
 
 const LEVELS = ["Beginner", "Intermediate", "Advanced"];
 
@@ -37,6 +38,7 @@ const Home = () => {
 
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState('');
+    const [isSettingsOpen, setIsSettingsOpen] = useState(false);
 
     // Community Feed State
     const [communityRoadmaps, setCommunityRoadmaps] = useState([]);
@@ -116,9 +118,21 @@ const Home = () => {
 
         } catch (err) {
             console.error("Process failed", err);
-            setError("Something went wrong. Please try again.");
+
+            // Check for specific backend errors
+            if (err.response?.data?.error) {
+                setError(err.response.data.error);
+                // If it's an Auth/Quota error, we might want to prompt them to open settings
+                if (err.response.data.isAuthError || err.response.data.isQuotaError) {
+                    // Start timer to show modal automatically or just let them click the button
+                    // But for better UX, let's keep the error message visible with a CTA
+                }
+            } else {
+                setError("Something went wrong. Please check your connection or try again.");
+            }
+
             setLoading(false);
-            setShowConfig(true);
+            // Don't show config modal again immediately, let them see the error
         }
     };
 
@@ -129,6 +143,8 @@ const Home = () => {
                 <div className="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-primary/5 rounded-full blur-[120px]"></div>
                 <div className="absolute bottom-[-10%] right-[-10%] w-[30%] h-[30%] bg-white/5 rounded-full blur-[100px]"></div>
             </div>
+
+            <SettingsModal isOpen={isSettingsOpen} onClose={() => setIsSettingsOpen(false)} />
 
             {/* Improved Loading Overlay */}
             {loading && <RoadmapLoader topic={topic} />}
@@ -304,7 +320,19 @@ const Home = () => {
                     ))}
                 </div>
 
-                {error && <p className="mt-6 text-red-500 bg-red-500/10 px-4 py-2 rounded-lg">{error}</p>}
+                {error && (
+                    <div className="mt-8 bg-red-500/10 border border-red-500/20 rounded-xl p-4 max-w-lg mx-auto flex flex-col items-center gap-3 animate-fade-in">
+                        <p className="text-red-400 text-center">{error}</p>
+                        {(error.includes("API Key") || error.includes("Quota")) && (
+                            <button
+                                onClick={() => setIsSettingsOpen(true)}
+                                className="bg-red-500/20 hover:bg-red-500/30 text-white text-sm font-bold px-4 py-2 rounded-lg flex items-center gap-2 transition-all"
+                            >
+                                <Settings size={14} /> Update API Key
+                            </button>
+                        )}
+                    </div>
+                )}
 
             </div>
 

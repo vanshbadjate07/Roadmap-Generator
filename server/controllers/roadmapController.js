@@ -51,6 +51,15 @@ const createRoadmap = async (req, res) => {
     } catch (error) {
         logDebug(`Error generating: ${error.message}`);
         console.error("Error generating roadmap:", error);
+
+        // Handle specific AI API errors
+        if (error.message.includes('API key') || error.message.includes('401') || error.message.includes('403')) {
+            return res.status(401).json({ error: "Invalid or missing API Key. Please add a valid Gemini API Key in Settings.", isAuthError: true });
+        }
+        if (error.message.includes('429') || error.message.includes('quota')) {
+            return res.status(429).json({ error: "API Quota Exceeded. Please try again later or use your own Key in Settings.", isQuotaError: true });
+        }
+
         res.status(500).json({ error: error.message || "Failed to generate roadmap" });
     }
 };
