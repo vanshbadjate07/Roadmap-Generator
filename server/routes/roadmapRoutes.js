@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const { createRoadmap, getRoadmap, getPublicRoadmaps, publishRoadmap, saveRoadmap, getUserRoadmaps, likeRoadmap, incrementView, cloneRoadmap, getLikedRoadmaps, bookmarkRoadmap, deleteRoadmap, getSavedRoadmaps } = require('../controllers/roadmapController');
+const { createRoadmap, getRoadmap, getPublicRoadmaps, publishRoadmap, saveRoadmap, getUserRoadmaps, likeRoadmap, incrementView, cloneRoadmap, getLikedRoadmaps, bookmarkRoadmap, deleteRoadmap, getSavedRoadmaps, saveUserKey, getUserKey } = require('../controllers/roadmapController');
 const verifyToken = require('../middleware/authMiddleware');
 
 router.post('/generate', createRoadmap); // Public? Or protected? Requirement: "Login REQUIRED to generate or publish". So protected.
@@ -19,5 +19,9 @@ router.get('/mine', verifyToken, getUserRoadmaps);
 router.get('/liked', verifyToken, getLikedRoadmaps);
 router.get('/saved', verifyToken, getSavedRoadmaps);
 router.get('/roadmaps/:id', getRoadmap);
+
+// User Data
+router.post('/user/key', verifyToken, saveUserKey);
+router.get('/user/key', verifyToken, getUserKey);
 
 module.exports = router;

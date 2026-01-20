@@ -282,7 +282,18 @@ const RoadmapView = () => {
     };
 
     if (loading) return <div className="min-h-screen flex items-center justify-center text-white"><Clock className="animate-spin mr-2" /> Loading...</div>;
-    if (!roadmap) return <div className="min-h-screen flex items-center justify-center text-white">Roadmap not found</div>;
+    if (!roadmap || !roadmap.steps) return (
+        <div className="min-h-screen flex flex-col items-center justify-center text-white gap-4">
+            <h2 className="text-xl font-bold text-red-400">Roadmap Generation Failed</h2>
+            <p className="text-gray-400">The AI response was incomplete. Please check your API Key quota and try again.</p>
+            <button
+                onClick={() => navigate('/')}
+                className="px-6 py-2 bg-white/10 hover:bg-white/20 rounded-xl transition-all"
+            >
+                Go Back
+            </button>
+        </div>
+    );
 
     const isOwner = currentUser?.uid === roadmap.authorId;
 

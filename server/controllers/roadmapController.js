@@ -409,5 +409,7 @@ module.exports = {
     getSavedRoadmaps,
     getPublicRoadmaps,
     getRoadmap,
-    getUserRoadmaps
+    getUserRoadmaps,
+    saveUserKey,
+    getUserKey
 };
