@@ -1,13 +1,5 @@
 # 🗺️ AI Roadmap Generator & Community Platform
 
-> **Architected & Developed by Vansh Badjate**
->
-> 🌐 **Portfolio**: [INSERT_YOUR_PORTFOLIO_URL]
-> 👔 **LinkedIn**: [INSERT_YOUR_LINKEDIN_URL]
-> 📧 **Contact**: badjatevansh1008@gmail.com
-
-![Project Banner](https://via.placeholder.com/1200x400?text=AI+Roadmap+Generator)
-
 ## 🚀 Overview
 
 **Roadmap.Gen** is a scalable, AI-powered educational platform designed to help learners master any skill. By leveraging **Google's Gemini AI**, it generates personalized, week-by-week learning paths tailored to the user's level (Beginner, Intermediate, Advanced) and time availability.
@@ -122,5 +114,3 @@ This project is open for contributions!
 Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
-
-> **Note for Deployment**: This project is consistent with 12-Factor App methodology. For production, deploy Client to **Vercel** and Server to **Render/Railway**. See `DEPLOYMENT.md` for the Scalability Guide.
