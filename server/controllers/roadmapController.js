@@ -53,14 +53,22 @@ const createRoadmap = async (req, res) => {
         console.error("Error generating roadmap:", error);
 
         // Handle specific AI API errors
-        if (error.message.includes('API key') || error.message.includes('401') || error.message.includes('403')) {
-            return res.status(401).json({ error: "Invalid or missing API Key. Please add a valid Gemini API Key in Settings.", isAuthError: true });
-        }
-        if (error.message.includes('429') || error.message.includes('quota')) {
-            return res.status(429).json({ error: "API Quota Exceeded. Please try again later or use your own Key in Settings.", isQuotaError: true });
+        // 404 or Model Not Found usually means Invalid/Unauthorized Key for that model
+        if (error.message.includes('Model Access Failed') || error.message.includes('not found') || error.message.includes('404')) {
+            return res.status(400).json({
+                error: "API Key Error: Your key cannot access the AI model. Please check if the 'Generative Language API' is enabled in your Google Cloud Console.",
+                isAuthError: true
+            });
         }
 
-        res.status(500).json({ error: error.message || "Failed to generate roadmap" });
+        if (error.message.includes('API key') || error.message.includes('401') || error.message.includes('403')) {
+            return res.status(401).json({ error: "Invalid API Key. Please update it in Settings.", isAuthError: true });
+        }
+        if (error.message.includes('429') || error.message.includes('quota')) {
+            return res.status(429).json({ error: "API Quota Exceeded. Please use a different key or try again later.", isQuotaError: true });
+        }
+
+        res.status(500).json({ error: "Failed to generate roadmap. Please try again." });
     }
 };
 

@@ -8,7 +8,9 @@ const generateRoadmapContent = async (topic, level, skills, goal, duration, hour
     try {
         // Use user's key if provided, otherwise default
         const client = userApiKey ? new GoogleGenerativeAI(userApiKey) : defaultGenAI;
-        const model = client.getGenerativeModel({ model: "gemini-1.5-flash" }); // Use a stable model name
+        // Using the latest stable Flash model
+        // Note: 'models/' prefix is sometimes safer
+        const model = client.getGenerativeModel({ model: "gemini-1.5-flash-002" });
 
         const prompt = `
         Create a highly detailed, industry-ready learning roadmap for: "${topic}".
@@ -59,6 +61,11 @@ const generateRoadmapContent = async (topic, level, skills, goal, duration, hour
         }
     } catch (error) {
         console.error("Gemini General Error:", error);
+
+        // Improve Error Message for Controller
+        if (error.message.includes('404') && error.message.includes('not found')) {
+            throw new Error("Model Access Failed: Your API Key does not support 'gemini-1.5-flash-002'. Please enable the Generative Language API in Google Cloud Console.");
+        }
         throw new Error(error.message);
     }
 };
